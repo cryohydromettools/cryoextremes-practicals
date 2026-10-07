@@ -2,7 +2,9 @@
 
 This repository contains practical exercise material and workflows for analyzing the **Surface Energy Balance (SEB)** and turbulent heat fluxes using Eddy Covariance (EC) tower and oceanic buoy measurements. 
 
-The practical sessions focus on observational data collected at **Penguin Island** and across the **Drake Passage**.
+![Course Overview](img/Fig_curso.png)
+
+During the course, participants work with real-world low- and high-frequency data collected in the Antarctic Peninsula during the Antarctic Modeling Observation System (ATMOS2) Project and at the Hintereisferner glacier (Austria) during the Second Hintereisferner Experiment (HEFEX II). Additionally, for the Antarctic Peninsula, an oceanic buoy dataset is included to calculate air-sea heat fluxes.
 
 > **Course Reference**: This material forms part of the practical modules for the **CRYOEXTREMES** course. For full details and lecture slides, visit the official site: [CRYOEXTREMES Course](https://cryohydromettools.github.io/CRYOEXTREMES.github.io/).
 
@@ -24,7 +26,7 @@ The analysis is structured sequentially across three main Jupyter Notebooks:
 
 ### 3. Oceanic Buoy & COARE Bulk Flux Modeling (`3_bulk_buoy.ipynb`)
 - Processes oceanic buoy observational data ($T_2$, $SST$, relative humidity, and wind speed).
-- Executes the **COARE 3.5 bulk algorithm** (`coare35vn.py`, `meteo.py`, `util.py`) to estimate air-sea sensible ($H$) and latent ($LE$) heat fluxes across the Drake Passage.
+- Executes the **COARE 3.5 bulk algorithm** (`coare35vn.py`, `meteo.py`, `util.py`) to estimate air-sea sensible ($H$) and latent ($LE$) heat fluxes across the Bransfield Strait.
 - Generates diagnostic multi-panel figures comparing forcing variables ($T_2, SST, RH, WS$) and bulk fluxes.
 
 ---
@@ -33,7 +35,10 @@ The analysis is structured sequentially across three main Jupyter Notebooks:
 
 These notebooks are designed to be run directly in **Google Colab**. 
 
-If additional packages are required within a session, you can install them at the beginning of the notebook:
+If additional packages are required within a session, you can install them at the beginning of the notebook.
+
+---
+
 ## 📂 Repository Structure
 
 ```text
@@ -44,8 +49,8 @@ If additional packages are required within a session, you can install them at th
 ├── coare35vn.py                # COARE 3.5 bulk algorithm script
 ├── meteo.py                    # Thermodynamic utilities for COARE
 ├── util.py                     # Helper functions for bulk flux calculations
+├── img/                        # Course images (contains Fig_curso.png)
 ├── data/                       # Raw and processed datasets (ignored by Git)
 ├── fig/                        # Output figures and exported plots
 ├── .gitignore                  # Git ignore file for local data/cache
 └── README.md                   # Project documentation
-```
