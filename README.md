@@ -4,7 +4,7 @@ This repository contains practical exercise material and workflows for analyzing
 
 ![Course Overview](img/fig_course_furg.png)
 
-During the course, participants work with real-world low- and high-frequency data collected in the Antarctic Peninsula (Penguin Island tower and Bransfield Strait buoy measurements) during the Antarctic Modeling Observation System (ATMOS2) Project, at the Hintereisferner glacier (Austria) during the Second Hintereisferner Experiment (HEFEX II), at the Zongo Glacier (Bolivia), and at the Patos Lagoon estuary. Full information regarding the HEFEX II experiment can be found in Nicholson et al. (2025).
+During the course, participants work with real-world low- and high-frequency data collected in the Antarctic Peninsula (Penguin Island tower and Bransfield Strait buoy measurements) during the Antarctic Modeling Observation System (ATMOS2) Project, at the Hintereisferner glacier (Austria) during the Second Hintereisferner Experiment (HEFEX II), at the Zongo Glacier (Bolivia), and at the Patos Lagoon estuary. Full information regarding the HEFEX II experiment can be found in Nicholson et al. (2025). Technical information regarding the measurements at Zongo Glacier can be found in Litt et al. (2015).
 
 > **Course Reference**: This material forms part of the practical modules for the **CRYOEXTREMES** course. For full details and lecture slides, visit the official site: [CRYOEXTREMES Course](https://cryohydromettools.github.io/CRYOEXTREMES.github.io/).
 
@@ -90,3 +90,5 @@ If additional packages are required within a session, you can install them at th
 
 
 **Nicholson, L., Stiperski, I., Nitti, G., Prinz, R., Georgi, A., Groos, A. R., et al. (2025).** The Second Hintereisferner Experiment (HEFEX II): Initial Insights into Boundary Layer Structure and Surface–Atmosphere Exchange Processes from Intensive Observations at a Valley Glacier. *Bulletin of the American Meteorological Society*, 106(10), E2143–E2169. https://doi.org/10.1175/BAMS-D-24-0010.1 
+
+**Litt, M., Sicart, J.-E., and Helgason, W. (2015).** A study of turbulent fluxes and their measurement errors for different wind regimes over the tropical Zongo Glacier (16° S) during the dry season, Atmos. Meas. Tech., 8, 3229–3250, https://doi.org/10.5194/amt-8-3229-2015 
