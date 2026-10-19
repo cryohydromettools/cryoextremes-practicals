@@ -30,7 +30,8 @@ The analysis is structured sequentially across the practical Jupyter Notebooks:
 ### 3. Oceanic Buoy & COARE Bulk Flux Modeling (`3_bulk_buoy.ipynb`)
 - Processes oceanic buoy observational data ($T_2$, $SST$, relative humidity, and wind speed) from the Bransfield Strait.
 - Executes the **COARE 3.5 bulk algorithm** (`coare35vn.py`, `meteo.py`, `util.py`) to estimate air-sea sensible ($H$) and latent ($LE$) heat fluxes.
-- Generates diagnostic multi-panel figures comparing forcing variables and bulk fluxes.
+- Generates diagnostic multi-panel figures comparing forcing variables and bulk fluxes. 
+- This approach has been used to investigate air–sea energy exchanges in the Brazil–Malvinas Confluence region (e.g., Pezzi et al., 2022). 
 
 ### 4. Comparative Tower & Buoy Analysis (`4_comp_tower_bouy.ipynb`, `4_comp_tower_bouy_biomet.ipynb`)
 - Cross-compares simultaneous micrometeorological and turbulent flux observations between land-based tower systems and marine/aquatic buoy deployments across the Antarctic Peninsula region.
@@ -90,5 +91,7 @@ If additional packages are required within a session, you can install them at th
 
 
 **Nicholson, L., Stiperski, I., Nitti, G., Prinz, R., Georgi, A., Groos, A. R., et al. (2025).** The Second Hintereisferner Experiment (HEFEX II): Initial Insights into Boundary Layer Structure and Surface–Atmosphere Exchange Processes from Intensive Observations at a Valley Glacier. *Bulletin of the American Meteorological Society*, 106(10), E2143–E2169. https://doi.org/10.1175/BAMS-D-24-0010.1 
+
+**Pezzi, L.P., de Souza, R.B., Santini, M.F. et al. (2021)** Oceanic eddy-induced modifications to air–sea heat and CO2 fluxes in the Brazil-Malvinas Confluence. Sci Rep 11, 10648. https://doi.org/10.1038/s41598-021-89985-9
 
 **Litt, M., Sicart, J.-E., and Helgason, W. (2015).** A study of turbulent fluxes and their measurement errors for different wind regimes over the tropical Zongo Glacier (16° S) during the dry season, Atmos. Meas. Tech., 8, 3229–3250, https://doi.org/10.5194/amt-8-3229-2015 
