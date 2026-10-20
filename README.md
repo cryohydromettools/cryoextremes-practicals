@@ -95,3 +95,5 @@ If additional packages are required within a session, you can install them at th
 **Pezzi, L.P., de Souza, R.B., Santini, M.F. et al. (2021)** Oceanic eddy-induced modifications to air–sea heat and CO2 fluxes in the Brazil-Malvinas Confluence. Sci Rep 11, 10648. https://doi.org/10.1038/s41598-021-89985-9
 
 **Litt, M., Sicart, J.-E., and Helgason, W. (2015).** A study of turbulent fluxes and their measurement errors for different wind regimes over the tropical Zongo Glacier (16° S) during the dry season, Atmos. Meas. Tech., 8, 3229–3250, https://doi.org/10.5194/amt-8-3229-2015 
+
+**Litt, M., Sicart, JE., Helgason, W.D. et al. (2015).** Turbulence Characteristics in the Atmospheric Surface Layer for Different Wind Regimes over the Tropical Zongo Glacier (Bolivia, 16°S). Boundary-Layer Meteorol 154, 471–495. https://doi.org/10.1007/s10546-014-9975-6
